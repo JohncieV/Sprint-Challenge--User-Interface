@@ -36,13 +36,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+It's a markup language that gives meaning to the code.
+
 2. What are the 4 areas of the box model?
+
+Margin, Border, Padding, Content
 
 3. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+Cross Axis
+
 4. Explain why git is valuable to a team of developers.
 
+Git is valuable because it allows for team members to make updates to each others code, and allows for multiple people to work on the same code simultaneously.
+
 5. Define mobile-first design in your own words.
+
+When you consider the design of a mobile device when you are designing you website, you work from the smallest screen to the biggest.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -50,12 +60,12 @@ You are expected to be able to answer all these questions. Your responses contri
 
 ### Task 1: Project Set Up
 
-- [ ] Create a forked copy of this project
-- [ ] Add your team lead as collaborator on Github
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!)
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly
-- [ ] Push commits: git push origin `<firstName-lastName>`
+- [X ] Create a forked copy of this project
+- [ X] Add your team lead as collaborator on Github
+- [X ] Clone your OWN version of the repository (Not Lambda's by mistake!)
+- [ X] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [ X] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly
+- [X ] Push commits: git push origin `<firstName-lastName>`
 
 ### Task 2:  Minimum Viable Product
 
@@ -65,23 +75,23 @@ Your finished project must include all of the following requirements:
 
 [Review the provided design files](/design). Notice the navigation and header images are missing in the starter code.
 
-* [ ] Build the HTML and CSS to create the missing navigation and header
-* [ ] Link the `About` navigation item to an about.html page (you'll also need to create `about.html`)
-* [ ] Make your design responsive such that it is accessible on mobile(500px) and tablet(800 px) and matches the [mobile](design/mobile.png) wireframe
+* [X] Build the HTML and CSS to create the missing navigation and header
+* [X] Link the `About` navigation item to an about.html page (you'll also need to create `about.html`)
+<!-- * [ ] Make your design responsive such that it is accessible on mobile(500px) and tablet(800 px) and matches the [mobile](design/mobile.png) wireframe -->
 *  Add responsive breakpoints to your code by using media queries
 
 You will also notice there are 10 boxes on the home page that need background colors.  Use this list below to correctly style each box:
 
-* [ ] box1: `teal`
-* [ ] box2: `gold`
-* [ ] box3: `cadetblue`
-* [ ] box4: `coral`
-* [ ] box5: `crimson`
-* [ ] box6: `forestgreen`
-* [ ] box7: `darkorchid`
-* [ ] box8: `hotpink`
-* [ ] box9: `indigo`
-* [ ] box10: `dodgerblue`
+* [ x] box1: `teal`
+* [ x] box2: `gold`
+* [ x] box3: `cadetblue`
+* [ x] box4: `coral`
+* [ x] box5: `crimson`
+* [ x] box6: `forestgreen`
+* [ x] box7: `darkorchid`
+* [ x] box8: `hotpink`
+* [ x] box9: `indigo`
+* [ x] box10: `dodgerblue`
 
 In your solution, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
 

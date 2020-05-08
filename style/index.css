@@ -19,7 +19,8 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
+    font-size: 62.5%;
+    max-width: 100%;
 	font: inherit;
 	vertical-align: baseline;
 }
@@ -28,6 +29,32 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+/* Header Styles */
+header{
+    max-width: 100%;
+    padding-bottom: 50 rem; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+
+}
+.navi{
+    text-align: end;
+    font-size: 1.0rem;
+    color: black;
+    text-decoration: none;
+    padding-right: 2.0rem;
+}
+
+#lambda-logo{
+    padding-right: 10.8rem;
+}
+
+#road{
+    margin-left:21.2rem;
+    width: 46rem;
+}
+
 body {
 	line-height: 1;
 }
@@ -69,6 +96,7 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    line-height: 4rem;
 }
 
 .top-content {
@@ -111,7 +139,36 @@ p {
     align-items: center;
     justify-content: center;
 }
-
+#first{
+    background-color: teal;
+}
+#two{
+    background-color: gold;
+}
+#three{
+    background-color: cadetblue;
+}
+#four{
+    background-color: coral;
+}
+#five{
+    background-color: crimson;
+}
+#six{
+    background-color: forestgreen;
+}
+#seven{
+    background-color: darkorchid;
+}
+#eight{
+    background-color: hotpink;
+}
+#nine{
+    background-color: indigo;
+}
+#ten{
+    background-color: dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +200,112 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+/* Media Query mobile(500px) */
+@media(max-width:500px){ 
+header, body, footer{
+    max-width: 800px;
+}
+#header-small{
+    display: flex;
+    flex-direction: column;
+}
+
+#lambda-logo{ 
+     padding-right: 1.5rem;
+}
+.navi{
+    font-size: 1.0rem;
+    padding: right 0.1rem;
+    text-align: center;
+    line-height: 2.2rem;
+}
+#road{
+    margin: 0;
+    width:100%;
+    padding-bottom: 2rem;
+}
+.top-content{
+    display: flex;
+    flex-direction: column;
+    font-size: .98rem;
+    width: 95%;
+    padding-left: .5rem;
+}
+.text-container h2{
+    line-height: 1.5rem;
+}
+.middle-content{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.middle-content h2{
+    text-align: center;
+}
+.boxes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.middle-content .boxes .box {
+    width: 60.5%;
+    height: 155px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+}
+.bottom-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 70%;
+}
+.bottom-content h2, p{
+    width: 95%;
+}
+footer nav{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+footer nav a{
+    text-align: center;
+    margin-left: 10rem;
+}
+}
+/* Media Query for Tablet(800px)*/
+@media(max-width: 800px){
+#road{
+    margin: .2rem; 
+    width: 95%; 
+}
+.middle-content h2{
+    text-align: center;
+}
+.middle-content .boxes .box {
+    width: 28.5%;
+    height: 190px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+}  
+}.top-content{
+    max-width: 100%;
+    display: flex;
+    font-size: .98rem;
+    padding-left: .5rem;
+    text-align: justify;
+    display: inline-block;
+}
+.bottom-content p, h2{
+    font-size:1.2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.bottom-content .text-container .moon{
+    display: block;
+}
+footer{
+    padding-left: 12rem;
 }
