@@ -204,3 +204,7 @@ header{
 .middle-content{
     flex-direction: column;
 }
+.middle-content .boxes{
+    justify-content: space-around;
+}
+}
