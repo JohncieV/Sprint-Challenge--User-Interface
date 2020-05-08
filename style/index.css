@@ -19,7 +19,8 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 62.5%;
+    font-size: 62.5%;
+    max-width: 100%;
 	font: inherit;
 	vertical-align: baseline;
 }
@@ -44,9 +45,11 @@ header{
     text-decoration: none;
     padding-right: 2.0rem;
 }
+
 #lambda-logo{
     padding-right: 10.8rem;
 }
+
 #road{
     margin-left:21.2rem;
     width: 46rem;
@@ -171,5 +174,33 @@ footer nav a {
 }
 /* Media Query mobile(500px) */
 @media(max-width:500px){
-    
+header{
+    display: block;
+}   
+
+#header-container{
+    display: flex;
+    flex-direction: column;
+}
+#lambda-logo{ 
+     padding-right: 1.5rem;
+}
+.navi{
+    font-size: .5rem;
+    padding: right 0.1rem;
+}
+#road{
+    margin: 0;
+}
+}
+/* Media Query for Tablet(800px)*/
+@media(max-width:800px){
+    #road{
+        margin: 0;  
+}
+.top-content{
+    flex-direction: column;
+}
+.middle-content{
+    flex-direction: column;
 }
